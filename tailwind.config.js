@@ -1,22 +1,45 @@
+// /** @type {import('tailwindcss').Config} */
+// export default {
+//   content: ["./src/*.{html,js}"],
+//   theme: {
+//     screens: {
+//       sm: '640px',
+//       md: '768px',
+//       lg: '1024px',
+//       xl: '1280px',
+//       '2xl': '1536px',
+//     },
+//     container: {
+//       center: true,
+//       padding: '1rem', // Optional: internal padding
+//       screens: {
+//         xl: '1350px', // max-width will be 1350px on xl+
+//       },
+//     },
+//     extend: {},
+//   },
+//   plugins: [],
+// }
+
+
+
+
+
+
+
+
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/*.{html,js}"],
   theme: {
-    screens: {
-      sm: '640px',   // Small devices
-      md: '768px',   // Medium devices
-      lg: '1024px',  // Large devices
-      xl: '1280px',  // Extra large
-      '2xl': '1536px', // 2x extra large
-      '3xl': '1950px', // my size
-    },
-    extend: {
-      container: {
-        center: true,  // Centers the container
-        padding: '2rem',  // Adds padding to the container
-        margin: '0 auto', // Ensures the container has 0 margin on top and bottom, and auto on left and right
+    container: {
+      center: true,
+      padding: '1rem',
+      screens: {
+        DEFAULT: '1350px', // Applies 1350px max width on all screen sizes
       },
     },
+    extend: {},
   },
   plugins: [],
 }

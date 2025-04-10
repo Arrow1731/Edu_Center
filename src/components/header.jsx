@@ -7,8 +7,8 @@ import TwitterIcon from '../assets/twitter-brands.svg';
 
 const Header = () => {
   return (
-    <div className='container mx-auto'>
-      <header className="bg-[url('/src/assets/bg_img.png')] h-[1024px] w-[1950px] bg-cover bg-center flex justify-between my-[27px]">
+    <div>
+      {/* <header className="bg-[url('/src/assets/bg_img.png')] h-[1024px] w-[1898px] bg-cover bg-center flex justify-between my-[27px]">
          <div></div>
        <div className='w-[735px] h-[435px] my-[127px]'>
          <h1 className='text-[40px] font-bold'>About Edu Center</h1>
@@ -31,7 +31,7 @@ const Header = () => {
               </div>
           </div>
        </div>
-    </header>
+    </header> */}
     </div>
   );
 };
