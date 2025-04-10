@@ -7,10 +7,10 @@ import TwitterIcon from '../assets/twitter-brands.svg';
 
 const Header = () => {
   return (
-    <div>
-      {/* <header className="bg-[url('/src/assets/bg_img.png')] h-[1024px] w-[1898px] bg-cover bg-center flex justify-between my-[27px]">
+    <div className=''>
+      <header className="bg-[url('/src/assets/bg_img.png')] w-[1905px] h-[700px] bg-cover bg-center flex justify-between my-[27px]">
          <div></div>
-       <div className='w-[735px] h-[435px] my-[127px]'>
+       <div className='w-[715px] h-[335px] my-[61px]'>
          <h1 className='text-[40px] font-bold'>About Edu Center</h1>
          <p className='text-[23px] py-[27px]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, quibusdam 
           a perspiciatis necessitatibus officiis mollitia reiciendis debitis doloremque dolorum. 
@@ -31,7 +31,7 @@ const Header = () => {
               </div>
           </div>
        </div>
-    </header> */}
+    </header>
     </div>
   );
 };

@@ -3,7 +3,7 @@ import Logo from '../assets/Logo-Photoroom.png';
 
 const Nav = () => {
   return (
-    <div className='mx-[280px]'>
+    <div className='mx-[250px]'>
       <div className='bg-[#808080] w-[1350px] h-[130px] flex justify-between items-center rounded-[50px] px-[30px]'>
         <img className='w-[300px]' src={Logo} alt="" />
         <nav className='flex items-center'>
